@@ -74,6 +74,16 @@ function unoun_enqueue_assets() {
         );
     }
 
+    if ( function_exists('is_post_type_archive') && ( is_post_type_archive('comunicado') || is_singular('comunicado') ) ) {
+        $comunicado_css = get_template_directory() . '/comunicado.css';
+        wp_enqueue_style(
+            'unoun-comunicado',
+            get_template_directory_uri() . '/comunicado.css',
+            ['unoun-theme'],
+            file_exists($comunicado_css) ? filemtime($comunicado_css) : '1.0.0'
+        );
+    }
+
     // Menu mobile toggle (header.js)
     wp_enqueue_script(
         'unoun-header',
@@ -104,6 +114,7 @@ function unoun_get_whatsapp_url() {
 ═══════════════════════════════════════════════════════════ */
 require_once get_template_directory() . '/inc/cpt-aplicativos.php';
 require_once get_template_directory() . '/inc/cpt-aplicativos-inclusos.php';
+require_once get_template_directory() . '/inc/cpt-comunicados.php';
 
 /* ═══════════════════════════════════════════════════════════
    CONFIGURAÇÕES DOS PLANOS

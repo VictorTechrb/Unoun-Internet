@@ -21,7 +21,6 @@ foreach ($slide_keys as $key) {
         <div class="banner-swiper-orbit banner-swiper-orbit--two" aria-hidden="true"></div>
         <div class="banner-swiper-intro" aria-hidden="true">
             <span class="banner-swiper-intro__line"></span>
-            <span>UNOUN INTERNET</span>
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -44,9 +43,6 @@ foreach ($slide_keys as $key) {
                                 <div class="banner-slide-art__glow" aria-hidden="true"></div>
                                 <img src="<?php echo esc_url($src); ?>" srcset="<?php echo esc_attr($srcset); ?>"
                                     sizes="<?php echo esc_attr($sizes); ?>" alt="<?php echo $alt; ?>" <?php echo $index === 0 ? 'loading="eager"' : 'loading="lazy"'; ?> decoding="async" class="swiper-slide__img">
-                            </div>
-                            <div class="banner-slide-caption">
-                                <span class="banner-slide-caption__eyebrow">Conectividade sem limites</span>
                             </div>
                         </div>
                     </div>

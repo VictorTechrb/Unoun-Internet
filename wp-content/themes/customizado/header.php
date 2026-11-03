@@ -31,6 +31,7 @@ $central_url  = 'https://central.unoun.com.br/central-assinante/';
 $is_apps = is_post_type_archive('aplicativo') || is_singular('aplicativo') || is_page('aplicativos');
 $is_home = is_front_page();
 $is_sobre = is_page('sobre-nos') || is_page('page-sobre') || is_page_template('page-sobre.php');
+$is_comunicados = is_post_type_archive('comunicado') || is_singular('comunicado');
 ?>
 
 <header class="isp-header" role="banner">
@@ -121,6 +122,16 @@ $is_sobre = is_page('sobre-nos') || is_page('page-sobre') || is_page_template('p
                             <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 11h.01M15 11h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                         Sobre Nós
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo esc_url( home_url('/comunicados/') ); ?>"
+                       <?php echo $is_comunicados ? 'aria-current="page"' : ''; ?>>
+                        <svg viewBox="0 0 24 24" fill="none" width="15" height="15" aria-hidden="true">
+                           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M14 2v6h6M8 13h8M8 17h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                        Comunicados
                     </a>
                 </li>
             </ul>

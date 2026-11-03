@@ -121,6 +121,12 @@ $page_links = [
                         Contato Corporativo
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo esc_url( home_url( '/comunicados/' ) ); ?>">
+                        <svg viewBox="0 0 24 24" fill="none" width="14" height="14" aria-hidden="true"><path d="M3 11v2a2 2 0 0 0 2 2h2l3 4v-6M10 8l9-3v14l-9-3V8z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                        Comunicados
+                    </a>
+                </li>
             </ul>
         </div>
 
