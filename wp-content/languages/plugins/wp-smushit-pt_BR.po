@@ -1,0 +1,809 @@
+# Translation of Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-19 19:53:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release)\n"
+
+#: core/media-library/class-media-library-row.php:831
+#: core/media-library/class-media-library-row.php:838
+msgid "Restore original"
+msgstr "Restaurar original"
+
+#: core/lazy-load/video-embed/class-video-thumbnail-controller.php:87
+msgid "Thumbnail URL not found."
+msgstr "URL da miniatura não encontrada."
+
+#: core/lazy-load/video-embed/class-video-thumbnail-controller.php:70
+msgid "Video thumbnail not found."
+msgstr "Miniatura do vídeo não encontrada."
+
+#: core/lazy-load/video-embed/class-video-thumbnail-controller.php:60
+msgid "Invalid video URL or dimensions."
+msgstr "URL ou dimensões do vídeo inválidos."
+
+#: core/external/hub-connector/inc/class-api.php:244
+#: core/external/hub-connector/inc/class-api.php:392
+#: core/external/hub-connector/inc/class-api.php:427
+#: core/external/hub-connector/inc/class-api.php:491
+msgid "Not logged in."
+msgstr "Não conectado."
+
+#: core/external/hub-connector/inc/class-admin.php:703
+msgid "Create a free account"
+msgstr "Crie uma conta gratuita"
+
+#: core/external/hub-connector/inc/class-admin.php:702
+msgid "OR continue with email"
+msgstr "OU continue com e-mail"
+
+#: core/external/hub-connector/inc/class-admin.php:701
+msgid "I am an existing user"
+msgstr "Eu já sou um usuário"
+
+#: core/external/hub-connector/inc/class-admin.php:700
+msgid "I am a new user"
+msgstr "Sou um novo usuário"
+
+#: core/external/hub-connector/inc/class-admin.php:698
+msgid "Keep me logged in"
+msgstr "Mantenha-me conectado"
+
+#: core/external/hub-connector/inc/class-admin.php:697
+msgid "Forgot password?"
+msgstr "Esqueceu a senha?"
+
+#: core/external/hub-connector/inc/class-admin.php:695
+msgid "You do not have the permission to view this page."
+msgstr "Você não tem permissão para visualizar esta página."
+
+#: core/class-hub-connector.php:631
+msgid "Disconnect site"
+msgstr "Desconectar site"
+
+#: core/class-settings.php:368
+msgid "Allow usage tracking"
+msgstr "Permitir rastreamento de uso"
+
+#: core/class-configs.php:973 core/class-configs.php:989
+msgid "none"
+msgstr "nenhum"
+
+#: core/class-configs.php:962 core/class-configs.php:1000
+msgid "No"
+msgstr "Não"
+
+#: core/class-configs.php:962 core/class-configs.php:1004
+msgid "Yes"
+msgstr "Sim"
+
+#: core/class-configs.php:958
+msgid ". Fade in delay: "
+msgstr ". Desvanecer no Atraso: "
+
+#: core/class-configs.php:957
+msgid ". Fade in duration: "
+msgstr ". Desvanecer na duração: "
+
+#: core/class-configs.php:955
+msgid "Selected: "
+msgstr "Selecionado:"
+
+#: core/class-configs.php:924
+msgid "Native Lazy Load Enabled"
+msgstr "Carregamento Lento Nativo Ativado"
+
+#: core/class-configs.php:923
+msgid "Load Scripts In Footer"
+msgstr "Carregar Scripts No Rodapé"
+
+#: core/class-configs.php:922
+msgid "Display And Animation"
+msgstr "Exibição e Animação"
+
+#: core/class-configs.php:921
+msgid "Included Post Types"
+msgstr "Tipos de Postagem Incluídos"
+
+#: core/class-configs.php:839
+msgid "Keep Data On Uninstall"
+msgstr "Manter Os Dados Na Desinstalação"
+
+#: core/class-configs.php:322
+msgid "The given config ID does not exist"
+msgstr "O ID de configuração fornecido não existe"
+
+#: core/class-configs.php:286
+msgid "The provided configs list isn’t correct. Please make sure the uploaded file is the correct one."
+msgstr "A lista de configurações fornecida não está correta. Certifique-se de que o arquivo carregado é o correto."
+
+#: core/class-configs.php:271
+msgid "The uploaded config must have a name and a set of settings. Please make sure the uploaded file is the correct one."
+msgstr "A configuração enviadas deve ter um nome e um conjunto de configurações. Certifique-se de que o arquivo enviado é o correto."
+
+#: core/class-configs.php:266
+msgid "There was an error decoding the file."
+msgstr "Ocorreu um erro ao decodificar o arquivo."
+
+#: core/class-configs.php:261
+msgid "There was an error getting the contents of the file."
+msgstr "Ocorreu um erro ao obter o conteúdo do arquivo."
+
+#: core/class-configs.php:256
+msgid "The file must be a JSON."
+msgstr "O arquivo deve ser um JSON."
+
+#. translators: error message
+#: core/class-configs.php:254
+msgid "Error: %s."
+msgstr "Erro: %s."
+
+#: core/class-configs.php:251
+msgid "The configs file is required"
+msgstr "O arquivo de configuração é necessário"
+
+#: core/class-configs.php:97
+msgid "Missing configs data"
+msgstr "Dados de configuração ausentes"
+
+#: core/api/class-hub.php:140
+msgid "Missing config data"
+msgstr "Dados de configuração ausentes"
+
+#: core/api/class-abstract-api.php:55
+msgid "API instances require a version and name properties"
+msgstr "Instâncias de API requerem uma versão e propriedades de nome"
+
+#: core/class-configs.php:631 core/class-configs.php:816
+#: core/class-configs.php:882 core/class-configs.php:888
+msgid "Inactive"
+msgstr "Inativo"
+
+#: core/frontend/class-frontend-controller.php:898
+msgid "Accessibility"
+msgstr "Acessibilidade"
+
+#: core/frontend/class-frontend-controller.php:897
+msgid "Data & Settings"
+msgstr "Dados e Configurações"
+
+#: core/frontend/class-frontend-controller.php:896
+msgid "General"
+msgstr "Geral"
+
+#: core/class-configs-controller.php:83
+msgid "Missing config ID"
+msgstr "ID de configuração ausente"
+
+#: core/class-core.php:282
+msgid "Something went wrong with the request. Please reload the page and try again."
+msgstr "Algo deu errado com a solicitação. Por favor, recarregue a página e tente novamente."
+
+#: core/class-configs.php:744 core/class-settings.php:1030
+msgid "WebP"
+msgstr "WebP"
+
+#: core/media/class-media-item-controller.php:80
+msgid "You don't have permission to do this."
+msgstr "Você não tem permissão para fazer isso."
+
+#: app/views/deactivation-survey.php:39
+msgid "Close this dialog window"
+msgstr "Fechar esta janela"
+
+#: app/class-admin.php:337
+msgid " and "
+msgstr " e "
+
+#. translators: 1. opening strong tag, 2: re-smush images count,3. closing
+#. strong tag.
+#: app/class-admin.php:325
+msgid "%1$s%2$d attachment%3$s that needs re-smushing"
+msgid_plural "%1$s%2$d attachments%3$s that need re-smushing"
+msgstr[0] "%1$s%2$d anexo%3$s que precisa re-smushing"
+msgstr[1] "%1$s%2$d anexos%3$s que precisam re-smushing"
+
+#. translators: 1. opening strong tag, 2: unsmushed images count,3. closing
+#. strong tag.
+#: app/class-admin.php:314
+msgid "%1$s%2$d attachment%3$s that needs smushing"
+msgid_plural "%1$s%2$d attachments%3$s that need smushing"
+msgstr[0] "%1$s%2$d anexo%3$s que precisa smushing"
+msgstr[1] "%1$s%2$d anexos%3$s que precisam smushing"
+
+#: core/class-core.php:290
+msgid "Dismiss notice"
+msgstr "Dispensar aviso"
+
+#: core/class-configs.php:757
+msgid "Native lazy load"
+msgstr "Carregamento lento nativo"
+
+#: core/class-configs.php:767
+msgid "REST API"
+msgstr "API REST"
+
+#: core/backups/class-backups-controller.php:170
+msgid "Error getting file name"
+msgstr "Erro ao obter nome do arquivo"
+
+#: core/lazy-load/class-lazy-load-video-embed.php:317
+msgid "Play"
+msgstr "Começar"
+
+#. translators: %1$s: bytes savings, %2$s: percentage savings
+#: core/media-library/class-media-library-row.php:591
+msgid "Reduced by %1$s (%2$s)"
+msgstr "Reduzido em %1$s (%2$s)"
+
+#: app/class-media-library.php:531
+#: core/frontend/class-frontend-controller.php:605
+msgid "Smush: Not processed"
+msgstr "Smush: Não processado"
+
+#: app/class-admin.php:287
+msgid "Manage Plugins"
+msgstr "Gerenciar Plugins"
+
+#: core/frontend/class-frontend-controller.php:1512
+msgid "Premium Support"
+msgstr "Suporte Premium"
+
+#: core/frontend/class-frontend-controller.php:1508
+msgid "View details"
+msgstr "Ver detalhes"
+
+#: app/class-admin.php:540 app/class-admin.php:583 app/class-admin.php:616
+#: core/frontend/class-frontend-controller.php:1502
+msgid "Rate Smush"
+msgstr "Avaliar Smus"
+
+#: core/frontend/class-frontend-controller.php:1477
+msgid "Go to Smush Dashboard"
+msgstr "Vá para o Painel de Controle do Smush"
+
+#: core/frontend/class-frontend-controller.php:1472
+msgid "View Smush Documentation"
+msgstr "Ver Documentação do Smush"
+
+#: core/frontend/class-frontend-controller.php:1457
+#: core/frontend/class-frontend-controller.php:1458
+msgid "Renew Membership"
+msgstr "Renovar Membership"
+
+#: core/modules/class-dir.php:320
+msgid "Potential Phar PHP Object Injection detected"
+msgstr "Potencial injeção Phar PHP Object detectada"
+
+#: app/class-media-library.php:527
+msgid "Filter by Smush status"
+msgstr "Filtrar por status Smush"
+
+#: core/integrations/class-composer.php:74
+msgid "To use this feature you need be using WPBakery Page Builder."
+msgstr "Para usar esse recurso, você precisa usar o WPBakery Page Builder."
+
+#: app/class-media-library.php:853 core/class-core.php:278
+#: core/media-library/class-media-library-row.php:217
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: core/class-helper.php:348
+msgid "Couldn't process image due to bad headers. Try re-saving the image in an image editor, then upload it again."
+msgstr "Não foi possível processar a imagem devido a cabeçalhos incorretos. Tente salvar novamente a imagem em um editor de imagens e faça o upload novamente."
+
+#: core/frontend/class-frontend-controller.php:804
+#: core/frontend/class-frontend-controller.php:1477
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: core/class-hub-connector.php:505
+msgid "Subsite Controls"
+msgstr "Controle Subsites"
+
+#: core/class-configs.php:764
+msgid "Background Images"
+msgstr "Background Imagens"
+
+#: core/class-settings.php:402
+msgid "Allow smushing images resized in WPBakery Page Builder editor."
+msgstr "Permitir que as imagens sejam redimensionadas com o smushing no editor do WPBakery Page Builder."
+
+#: core/class-configs.php:784 core/class-settings.php:401
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#: core/class-settings.php:400
+msgid "Enable WPBakery Page Builder integration"
+msgstr "Ativar integração no WPBakery Page Builder"
+
+#: core/class-configs.php:770 core/class-settings.php:319
+msgid "Automatic compression"
+msgstr "Compactação automática"
+
+#: core/class-settings.php:314
+msgid "Image Sizes"
+msgstr "Tamanhos de Imagem"
+
+#: core/class-configs.php:631 core/class-configs.php:882
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:2343
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1571
+msgid "Active"
+msgstr "Ativo"
+
+#: core/api/class-smush-api.php:95
+msgid "[WPMUDEV API] Skipped sync due to API error exponential backoff."
+msgstr "[WPMUDEV API] Sincronização ignorada devido ao backoff exponencial de erros da API."
+
+#: core/class-configs.php:1023
+msgid "All"
+msgstr "Todos"
+
+#: core/class-configs.php:893
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: core/class-core.php:284
+msgid "Ignore this image from bulk smushing"
+msgstr "Ignore esta imagem do Smush em massa"
+
+#: core/class-error-handler.php:256
+msgid "No attachment ID was received."
+msgstr "Nenhum ID do anexo foi recebido."
+
+#: core/class-configs.php:756
+msgid "Scripts"
+msgstr "Scripts"
+
+#: core/class-configs.php:1023 core/class-settings.php:1029
+msgid "None"
+msgstr "Nenhum"
+
+#: core/class-configs.php:918
+msgid "Output Locations"
+msgstr "Locais de saída"
+
+#: core/class-configs.php:917 core/class-configs.php:984
+msgid "Media Types"
+msgstr "Tipos de Mídias"
+
+#: core/frontend/class-frontend-controller.php:891
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: core/class-settings.php:370
+msgid "Help make Smush better by letting our designers learn how you’re using the plugin."
+msgstr "Ajude a melhorar a Smush informando aos designers como você está usando o plug-in."
+
+#: core/class-settings.php:369
+msgid "Usage Tracking"
+msgstr "Acompanhamento de Uso"
+
+#: core/class-settings.php:365
+msgid "Increase the visibility and accessibility of elements and components to meet WCAG AAA requirements."
+msgstr "Aumentar a visibilidade e a acessibilidade de elementos e componentes para atender aos requisitos da WCAG AAA."
+
+#: core/class-settings.php:364
+msgid "Color Accessibility"
+msgstr "Acessibilidade de Cor"
+
+#: core/class-settings.php:363
+msgid "Enable high contrast mode"
+msgstr "Ativar modo de alto contraste"
+
+#: core/cli/class-cli-optimizer.php:55
+msgid "No images available to restore"
+msgstr "Nenhuma imagem disponível para restaurar"
+
+#: core/cli/class-cli.php:129
+msgid "Smushing all images"
+msgstr "Comprimindo todas imagens"
+
+#. translators: %d - number of images
+#: core/cli/class-cli.php:124
+msgid "Smushing first %d images"
+msgstr "Comprimindo primeira %d imagens"
+
+#. translators: %s Smush image Id(s)
+#: core/cli/class-cli.php:112
+msgid "Smushing image ID: %d"
+msgid_plural "Smushing images %s"
+msgstr[0] "Comprimindo imagem ID: %d"
+msgstr[1] ""
+
+#: app/views/email/ultra-upsell.php:67
+#: core/frontend/class-frontend-controller.php:1606
+msgid "Upgrade"
+msgstr "Atualizar"
+
+#: core/frontend/class-frontend-controller.php:1454
+#: core/frontend/class-frontend-controller.php:1603
+msgid "Upgrade to Smush Pro"
+msgstr "Atualizar para Smush Pro"
+
+#: core/frontend/class-frontend-controller.php:610
+msgid "Select an image to view Smush stats."
+msgstr "Selectiona uma imagem para ver o Status do Smush"
+
+#: core/api/class-request.php:82
+msgid "Invalid API service."
+msgstr "Serviço de API inválido."
+
+#: core/frontend/class-frontend-controller.php:1472
+msgid "Docs"
+msgstr "Documentações"
+
+#: core/frontend/class-frontend-controller.php:1503
+msgid "Support"
+msgstr "Suporte"
+
+#: core/frontend/class-frontend-controller.php:1526
+msgid "Roadmap"
+msgstr "Roadmap"
+
+#: app/views/email/ultra-upsell.php:69
+#: core/frontend/class-frontend-controller.php:316
+#: core/frontend/class-frontend-controller.php:1607
+msgid "Pro"
+msgstr "Pro"
+
+#: app/class-media-library.php:532
+#: core/frontend/class-frontend-controller.php:606
+msgid "Smush: Bulk ignored"
+msgstr "Smush: Bulk ignorado"
+
+#: app/class-media-library.php:530
+#: core/frontend/class-frontend-controller.php:604
+msgid "Smush: All images"
+msgstr "Smush: Todas imagens"
+
+#: core/class-error-handler.php:261
+msgid "Skipped with wp_smush_image filter"
+msgstr "Ignorado com o filtro wp_smush_image"
+
+#: core/class-settings.php:349
+msgid "Original Images"
+msgstr "Imagens Originais"
+
+#: core/class-core.php:297
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: core/integrations/class-gutenberg.php:81
+msgid "To use this feature you need to install and activate the Gutenberg plugin."
+msgstr "Para usar esse recurso você precisa instalar e ativar o plugin Gutenberg."
+
+#: core/class-configs.php:783 core/class-settings.php:406
+msgid "Gutenberg Support"
+msgstr "Suporte ao Gutenberg"
+
+#: core/class-settings.php:405
+msgid "Show Smush stats in Gutenberg blocks"
+msgstr "Mostrar status do Smush nos blocos do Gutenberg"
+
+#. translators: %1$s - opening <a>, %2$s - closing </a>
+#: app/class-admin.php:152
+msgid "Smush uses the Stackpath Content Delivery Network (CDN). Stackpath may store web log information of site visitors, including IPs, UA, referrer, Location and ISP info of site visitors for 7 days. Files and images served by the CDN may be stored and served from countries other than your own. Stackpath's privacy policy can be found %1$shere%2$s."
+msgstr ""
+"Smush usa a rede de entrega de conteúdo do Stackpath (CDN). \n"
+"O Stackpath pode armazenar informações de log da web de visitantes do site, incluindo IPs, UA, referência, localização e informações do ISP dos visitantes do site por 7 dias. Arquivos e imagens servidos pelo CDN podem ser armazenados e servidos de países que não sejam seus. A política de privacidade do Stackpath pode ser econtradas %1$saqui%2$s."
+
+#: core/modules/class-dir.php:976
+msgid "Empty Directory Path"
+msgstr "Caminho do diretório vazio"
+
+#: core/modules/class-dir.php:772
+msgid "There was a problem getting the selected directories"
+msgstr "Houve um problema ao obter os diretórios selecionados."
+
+#: app/class-media-library.php:766
+#: core/backups/class-backups-controller.php:147
+#: core/backups/class-backups-controller.php:187
+#: core/bulk/class-background-bulk-smush-controller.php:185
+#: core/bulk/class-bulk-smush-session-savings.php:50
+#: core/cache/class-cache-controller.php:45 core/class-hub-connector.php:656
+#: core/class-hub-connector.php:694 core/class-settings.php:833
+#: core/frontend/class-frontend-controller.php:111
+#: core/frontend/class-frontend-controller.php:124
+#: core/frontend/class-frontend-controller.php:1307
+#: core/frontend/class-frontend-controller.php:1544
+#: core/frontend/class-frontend-controller.php:1581
+#: core/modules/class-dir.php:204 core/modules/class-dir.php:224
+#: core/modules/class-dir.php:252 core/modules/class-dir.php:286
+#: core/modules/class-dir.php:565 core/modules/class-dir.php:576
+#: core/modules/class-dir.php:585 core/modules/class-dir.php:592
+#: core/modules/class-dir.php:848 core/modules/class-dir.php:968
+#: core/modules/class-dir.php:1409
+#: core/rating-notification/class-rating-notification-controller.php:28
+#: core/rating-notification/class-rating-notification-controller.php:48
+#: core/rating-notification/class-rating-notification-controller.php:67
+#: core/rating-notification/class-rating-notification-controller.php:86
+msgid "Unauthorized"
+msgstr "Não autorizado"
+
+#: core/media-library/class-media-library-row.php:759
+msgid "Resmush"
+msgstr "Re-Compactar"
+
+#: app/class-media-library.php:801
+msgid "PRO"
+msgstr "PRO"
+
+#: core/cli/class-cli.php:296
+msgid "Images Smushed"
+msgstr "Imagens Compactadas"
+
+#: core/cli/class-cli.php:294
+msgid "Total Savings"
+msgstr "Total economizado"
+
+#: core/frontend/class-frontend-controller.php:895
+msgid "Integrations"
+msgstr "Integrações"
+
+#: core/bulk/class-mail.php:93 core/class-hub-connector.php:501
+msgid "Bulk Smush"
+msgstr "Smush em Massa"
+
+#: core/class-rest.php:76
+msgid "Smushing in progress"
+msgstr "Compactação em progresso"
+
+#: core/class-rest.php:52
+msgid "Smush data."
+msgstr "Compactar dados."
+
+#: core/media-library/class-media-library-row.php:329
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1336
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:739
+msgid "Learn more"
+msgstr "Aprenda mais"
+
+#: core/frontend/class-frontend-controller.php:883
+msgid "Directory Smush"
+msgstr "Diretório Smush"
+
+#: core/class-configs.php:838 core/frontend/class-frontend-controller.php:848
+#: core/frontend/class-frontend-controller.php:893
+msgid "CDN"
+msgstr "CDN"
+
+#: core/class-configs.php:771 core/class-settings.php:334
+msgid "Metadata"
+msgstr "Metadados"
+
+#: core/modules/class-dir.php:1332
+msgid "Directory smushing requires custom tables and it seems there was an error creating tables. For help, please contact our team on the support forums."
+msgstr "Diretório de compressão requer tabelas personalizadas e aparentemente houve um erro criando essas tabelas. Para ajuda, entre em contato com o nosso time nos forums de suporte."
+
+#. Plugin Name of the plugin
+#: wp-smush.php app/views/deactivation-survey.php:33
+#: core/bulk/class-mail.php:65 core/class-configs.php:128
+#: core/class-installer.php:349
+#: core/external/plugins-cross-sell-page/core/plugins-list.php:24
+#: core/frontend/class-frontend-controller.php:311
+#: core/frontend/class-frontend-controller.php:315
+#: core/frontend/class-frontend-controller.php:318
+#: core/frontend/class-frontend-controller.php:603
+#: core/media-library/class-media-library-row.php:725
+#: core/smush/class-smush-optimization.php:102
+msgid "Smush"
+msgstr "Smush"
+
+#: core/bulk/class-mail.php:65
+#: core/external/plugins-cross-sell-page/core/plugins-list.php:191
+#: core/frontend/class-frontend-controller.php:311
+msgid "Smush Pro"
+msgstr "Smush Pro"
+
+#: app/class-admin.php:160
+msgid "Smush uses a third-party email service (Drip) to send informational emails to the site administrator. The administrator's email address is sent to Drip and a cookie is set by the service. Only administrator information is collected by Drip."
+msgstr "Smush usa serviços de email de terceiros (Drip)  para enviar informações para o administrador do site. O endereço de email do administrador é setado no Drip e um cookie é setado pelo serviço. Somente as informações do administrador são coletadas pelo Drip."
+
+#: app/class-admin.php:149
+msgid "Smush sends images to the WPMU DEV servers to optimize them for web use. This includes the transfer of EXIF data. The EXIF data will either be stripped or returned as it is. It is not stored on the WPMU DEV servers."
+msgstr "Smush envia imagens para os servidores da WPMU DEV para para otimizá-las para web. Isso inclue a transferência de dados EXIF. Os dados EXIF serão destruidos ou retornados. Não serão armazenados nos servidores da WPMU DEV. "
+
+#: app/class-admin.php:147
+msgid "Note: Smush does not interact with end users on your website. The only input option Smush has is to a newsletter subscription for site admins only. If you would like to notify your users of this in your privacy policy, you can use the information below."
+msgstr "Nota: Smush não interage com usuários finais em seu site. A única opção de entrada do Smush é a subscrição de uma newsletter apenas para o administrador do site. Se você quer notificar seus usuários sobre isso em suas políticas de privacidade, você pode usar as informações abaixo."
+
+#: app/class-admin.php:145
+msgid "Plugin: Smush"
+msgstr "Plugin: Smush"
+
+#: core/frontend/class-frontend-controller.php:609
+msgid "Smush Stats"
+msgstr "Status do Smush"
+
+#: core/class-configs.php:786 core/class-configs.php:837
+#: core/class-settings.php:384
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/class-settings.php:383
+msgid "Enable Amazon S3 support"
+msgstr "Ativar suporte ao Amazon S3"
+
+#: core/class-settings.php:379
+msgid "NextGen Gallery"
+msgstr "NextGen Gallery"
+
+#: core/class-settings.php:360
+msgid "When you compress a PNG, Smush will check if converting it to JPEG could further reduce its size."
+msgstr "Quando você comprimir um arquivo PNG, Smush irá verificar se a conversão para JPEG irá reduzir seu tamanho."
+
+#: core/class-configs.php:779 core/class-settings.php:359
+msgid "PNG to JPEG Conversion"
+msgstr "Conversão PNG para JPEG"
+
+#: core/class-settings.php:358
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "Auto converter PNGs para JPEGs (Com Perdas)"
+
+#: core/class-settings.php:320
+msgid "When you upload images to your site, we will automatically optimize and compress them for you."
+msgstr "Quando você envia imagens para o seu site, as otimizaremos e as compactaremos automaticamente para você."
+
+#: core/modules/class-dir.php:341
+msgid "Image couldn't be optimized"
+msgstr "Imagem não pode ser otimizada"
+
+#: core/modules/class-dir.php:304
+msgid "Incorrect image id"
+msgstr "Id da imagem incorreto"
+
+#: core/modules/class-dir.php:991
+msgid "We could not find any images in the selected directory."
+msgstr "Nós não conseguimos achar nenhuma imagem na pasta selecionada."
+
+#: core/media-library/class-media-library-row.php:756
+msgid "Smush image including original file"
+msgstr "Compactar imagem incluindo arquivo original."
+
+#: core/media-library/class-media-library-row.php:828
+msgid "Restore original image"
+msgstr "Restaurar imagem original."
+
+#: app/class-media-library.php:794
+msgid "Image couldn't be smushed as it exceeded the 5Mb size limit, Pro users can smush images without any size restriction."
+msgstr "A imagem não pode ser smush porque excedeu o limite de tamanho de 5 MB, os usuários do Pro podem smush imagens sem qualquer restrição de tamanho."
+
+#. translators: %s: number of thumbnails
+#: app/class-media-library.php:788
+msgid "When you upload an image to WordPress it automatically creates %s thumbnail sizes that are commonly used in your pages. WordPress also stores the original full-size image, but because these are not usually embedded on your site we don’t Smush them. Pro users can override this."
+msgstr "Quando você carrega uma imagem no WordPress, ela cria automaticamente %s tamanhos de miniaturas que são comumente usados ​​em suas páginas. O WordPress também armazena a imagem em tamanho original, mas, como geralmente não são incorporadas ao seu site, não as desfocamos. Usuários profissionais podem substituir isso."
+
+#: core/media-library/class-media-library-row.php:845
+msgid "Detailed stats for all the image sizes"
+msgstr "Estatísticas detalhadas para todos os tamanhos de imagem"
+
+#: core/backups/class-backups-controller.php:84
+msgid "Unable to restore image"
+msgstr "Incapaz de restaurar a imagem"
+
+#: core/cli/class-cli.php:316
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "Oba! Todas as imagens foram compactadas conforme suas configurações atuais."
+
+#: app/class-media-library.php:590 core/class-core.php:276
+msgid "Restoring image..."
+msgstr "Restaurando imagem..."
+
+#: core/class-core.php:274
+msgid "All images are fully optimized."
+msgstr "Todas as imagens foram completamente otimizadas."
+
+#: core/class-settings.php:380
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "Permitir compactação de imagem de forma direta através das configurações da Galeria NextGen."
+
+#: core/class-settings.php:378
+msgid "Enable NextGen Gallery integration"
+msgstr "Permitir a integração com o NextGen Gallery"
+
+#: core/class-settings.php:318
+msgid "Automatically compress my images on upload"
+msgstr "Compactar automaticamente minhas imagens no envio"
+
+#: app/class-admin.php:293 app/class-admin.php:421 app/class-admin.php:465
+#: core/cache/class-cache-controller.php:67 core/class-core.php:289
+msgid "Dismiss"
+msgstr "Dispensar"
+
+#. Author of the plugin
+#: wp-smush.php
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1382
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:762
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#. Description of the plugin
+#: wp-smush.php
+msgid "Reduce image file sizes, improve performance and boost your SEO using the free <a href=\"https://wpmudev.com/\">WPMU DEV</a> WordPress Smush API."
+msgstr "Reduza o tamanho dos arquivos de imagem, melhore o desempenho e impulsione seu SEO usando o <a href=\"https://wpmudev.com/\"> WPMU DEV </a> WordPress Smush API."
+
+#: core/frontend/class-frontend-controller.php:612
+msgid "Savings"
+msgstr "Gravando"
+
+#: core/frontend/class-frontend-controller.php:611
+#: core/media-library/class-media-library-row.php:666
+msgid "Image size"
+msgstr "Tamanho da imagem"
+
+#: app/class-media-library.php:658
+msgid "Smush Now!"
+msgstr "Comprimir Agora!"
+
+#: app/class-media-library.php:593 app/class-media-library.php:835
+#: core/class-core.php:287 core/class-error-handler.php:264
+#: core/class-rest.php:82 core/media-library/class-media-library-row.php:102
+#: core/media-library/class-media-library-row.php:368
+msgid "Not processed"
+msgstr "Não processado"
+
+#: core/smush/class-smusher.php:653
+msgid "Image couldn't be smushed"
+msgstr "A imagem não pode ser comprimida."
+
+#: core/smush/class-smusher.php:689
+msgid "Smush data corrupted, try again."
+msgstr "Os dados da compressão foram corrompidos, tente novamente."
+
+#. translators: 1: Error code, 2: Error message.
+#: core/smush/class-smusher.php:635
+msgid "Error posting to API: %1$s %2$s"
+msgstr "Ocorreu um erro ao enviar para API:%1$s %2$s"
+
+#. translators: %s: Error message.
+#: core/smush/class-smusher.php:602
+msgid "Error posting to API: %s"
+msgstr "Erro ao enviar para API: %s"
+
+#: core/smush/class-smusher.php:665
+msgid "Unknown API error"
+msgstr "Erro desconhecido na API"
+
+#. translators: %s: Directory path
+#. translators: %s: directory name
+#: core/class-error-handler.php:270 core/smush/class-smusher.php:281
+msgid "%s is not writable"
+msgstr "%s não possui permissão de escrita"
+
+#: core/class-error-handler.php:262 core/smush/class-smusher.php:262
+msgid "File path is empty"
+msgstr "O caminho do arquivo está vazio"
+
+#: core/class-optimization-controller.php:84
+msgid "No attachment ID was provided."
+msgstr "Não foi fornecido nenhum ID de anexo."
+
+#: core/backups/class-backups-controller.php:65
+#: core/class-optimization-controller.php:96
+#: core/media/class-media-item-controller.php:29
+#: core/media/class-media-item-controller.php:56
+msgid "You don't have permission to work with uploaded files."
+msgstr "Você não tem permissão para trabalhar com os arquivos carregados."
+
+#: core/frontend/class-frontend-controller.php:968
+msgid "Settings"
+msgstr "Configurações"
+
+#: core/class-core.php:271
+msgid "Super-Smush"
+msgstr "Super-Smush"
+
+#: app/class-media-library.php:657
+msgid "Smushing in progress..."
+msgstr "Otimização em progresso..."
+
+#: app/class-admin.php:164
+msgid "WP Smush"
+msgstr "WP Smush"

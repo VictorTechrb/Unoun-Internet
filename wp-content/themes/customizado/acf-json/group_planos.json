@@ -1,0 +1,88 @@
+{
+    "key": "group_unoun_planos",
+    "title": "Planos de Internet",
+    "fields": [
+        {
+            "key": "field_unoun_plano_500_megas",
+            "label": "Velocidade do plano 1 (Mega)",
+            "name": "plano_500_megas",
+            "type": "number",
+            "instructions": "Informe a velocidade em Mega. Exemplo: 500.",
+            "required": 1,
+            "default_value": 500,
+            "min": 1,
+            "step": 1,
+            "wrapper": { "width": "50" }
+        },
+        {
+            "key": "field_unoun_plano_500_preco",
+            "label": "Preço do plano 1 (R$)",
+            "name": "plano_500_preco",
+            "type": "number",
+            "instructions": "Preço promocional mensal. Exemplo: 89.90.",
+            "required": 1,
+            "default_value": 89.90,
+            "min": 0,
+            "step": 0.01,
+            "wrapper": { "width": "50" }
+        },
+        {
+            "key": "field_unoun_plano_700_megas",
+            "label": "Velocidade do plano 2 (Mega)",
+            "name": "plano_700_megas",
+            "type": "number",
+            "instructions": "Informe a velocidade em Mega. Exemplo: 700.",
+            "required": 1,
+            "default_value": 700,
+            "min": 1,
+            "step": 1,
+            "wrapper": { "width": "50" }
+        },
+        {
+            "key": "field_unoun_plano_700_preco",
+            "label": "Preço do plano 2 (R$)",
+            "name": "plano_700_preco",
+            "type": "number",
+            "instructions": "Preço promocional mensal. Exemplo: 109.90.",
+            "required": 1,
+            "default_value": 109.90,
+            "min": 0,
+            "step": 0.01,
+            "wrapper": { "width": "50" }
+        },
+        {
+            "key": "field_unoun_plano_800_megas",
+            "label": "Velocidade do plano 3 (Mega)",
+            "name": "plano_800_megas",
+            "type": "number",
+            "instructions": "Informe a velocidade em Mega. Exemplo: 800.",
+            "required": 1,
+            "default_value": 800,
+            "min": 1,
+            "step": 1,
+            "wrapper": { "width": "50" }
+        },
+        {
+            "key": "field_unoun_plano_800_preco",
+            "label": "Preço do plano 3 (R$)",
+            "name": "plano_800_preco",
+            "type": "number",
+            "instructions": "Preço promocional mensal. Exemplo: 114.90.",
+            "required": 1,
+            "default_value": 114.90,
+            "min": 0,
+            "step": 0.01,
+            "wrapper": { "width": "50" }
+        }
+    ],
+    "location": [[
+        { "param": "options_page", "operator": "==", "value": "unoun-planos" }
+    ]],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "show_in_rest": 0
+}

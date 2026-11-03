@@ -1,0 +1,408 @@
+/* ═══════════════════════════════════════════════════════════
+   HEADER.CSS — Estilos exclusivos do cabeçalho UNOUN
+═══════════════════════════════════════════════════════════ */
+
+/* ── Variáveis ──────────────────────────────────────────── */
+:root {
+    --hdr-purple:        #672f8f;
+    --hdr-purple-dark:   #4e2070;
+    --hdr-purple-light:  #8b45b8;
+    --hdr-white:         #ffffff;
+    --hdr-green:         #25D366;
+    --hdr-topbar-bg:     #f3f0f8;
+    --hdr-topbar-border: rgba(103, 47, 143, 0.12);
+    --hdr-navbar-h:      64px;
+    --hdr-topbar-h:      40px;
+    --hdr-total-h:       calc(var(--hdr-navbar-h) + var(--hdr-topbar-h));
+    --hdr-px:            5%;
+    --hdr-transition:    0.2s ease;
+}
+
+/* ── Body offset (sem admin bar) ────────────────────────── */
+body {
+    padding-top: var(--hdr-total-h); /* 104px = topbar 40 + navbar 64 */
+}
+
+/* ── Header fixo — posição padrão (sem admin bar) ───────── */
+.isp-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* ── Correção para admin bar do WordPress ───────────────── */
+
+/* Desktop logado: admin bar tem 32px */
+@media screen and (min-width: 783px) {
+    .admin-bar .isp-header {
+        top: 32px;
+    }
+    .admin-bar body {
+        padding-top: calc(var(--hdr-total-h) + 32px);
+    }
+}
+
+/* Mobile logado: admin bar tem 46px */
+@media screen and (max-width: 782px) {
+    .admin-bar .isp-header {
+        top: 46px;
+    }
+    .admin-bar body {
+        padding-top: calc(var(--hdr-navbar-h) + 46px);
+    }
+}
+
+/* Skip link (acessibilidade) */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 8px;
+    z-index: 9999;
+    background: var(--hdr-purple);
+    color: var(--hdr-white);
+    padding: 8px 16px;
+    border-radius: 0 0 6px 6px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transition: top 0.15s;
+}
+.skip-link:focus { top: 0; }
+
+/* ══════════════════════════════════════════════════════════
+   TOPBAR
+══════════════════════════════════════════════════════════ */
+.isp-topbar {
+    background: var(--hdr-topbar-bg);
+    border-bottom: 1px solid var(--hdr-topbar-border);
+    height: var(--hdr-topbar-h);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 0 var(--hdr-px);
+    font-size: 0.8rem;
+    font-family: inherit;
+}
+
+.isp-topbar-left { display: flex; align-items: center; }
+
+.isp-topbar-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--hdr-purple);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(103, 47, 143, 0.08);
+    transition: background var(--hdr-transition);
+    line-height: 1;
+}
+.isp-topbar-link:hover { background: rgba(103, 47, 143, 0.16); }
+
+.isp-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.isp-topbar-phone {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: color var(--hdr-transition);
+    line-height: 1;
+}
+.isp-topbar-phone:hover { color: var(--hdr-purple); }
+
+.isp-topbar-boleto {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.05);
+    transition: background var(--hdr-transition), color var(--hdr-transition);
+    line-height: 1;
+}
+.isp-topbar-boleto:hover {
+    background: rgba(103, 47, 143, 0.1);
+    color: var(--hdr-purple);
+}
+
+.btn-wpp {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--hdr-green);
+    color: var(--hdr-white);
+    padding: 5px 13px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1;
+    white-space: nowrap;
+    transition: transform var(--hdr-transition), box-shadow var(--hdr-transition);
+}
+.btn-wpp:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    color: var(--hdr-white);
+}
+
+/* ══════════════════════════════════════════════════════════
+   NAVBAR
+══════════════════════════════════════════════════════════ */
+.isp-navbar {
+    background: var(--hdr-purple);
+    height: var(--hdr-navbar-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--hdr-px);
+    position: relative; /* Essencial para a centralização absoluta funcionar */
+}
+
+/* Sombra ao rolar */
+.isp-header--scrolled .isp-navbar {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* ── Logo ────────────────────────────────────────────────── */
+.isp-logo {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    outline-offset: 4px;
+}
+
+.isp-logo-img {
+    display: block;
+    width: auto;
+    height: 80px; /* Altura máxima do logo na navbar */
+    max-width: 150px;
+    object-fit: contain;
+}
+
+/* ── Menu links ──────────────────────────────────────────── */
+.isp-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza perfeitamente na tela */
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 6px 14px;
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: background var(--hdr-transition), color var(--hdr-transition);
+}
+
+.menu-list li a svg {
+    opacity: 0.65;
+    flex-shrink: 0;
+    transition: opacity var(--hdr-transition);
+}
+
+.menu-list li a:hover,
+.menu-list li a[aria-current] {
+    background: rgba(255, 255, 255, 0.13);
+    color: var(--hdr-white);
+}
+
+.menu-list li a:hover svg,
+.menu-list li a[aria-current] svg { opacity: 1; }
+
+/* Sublinhado na página ativa */
+.menu-list li a[aria-current] {
+    position: relative;
+}
+.menu-list li a[aria-current]::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 14px;
+    right: 14px;
+    height: 2px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* ── Ações direita ───────────────────────────────────────── */
+.isp-navbar-actions {
+    display: none;
+}
+
+.btn-client-area {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(0, 0, 0, 0.08); /* Fundo cinza da imagem */
+    color: #333; /* Texto escuro */
+    padding: 6px 14px;
+    border-radius: 6px; /* Cantos normais, não arredondados como pílula */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1;
+    border: none;
+    white-space: nowrap;
+    transition: background var(--hdr-transition), color var(--hdr-transition);
+}
+.btn-client-area:hover {
+    background: rgba(103, 47, 143, 0.1);
+    color: var(--hdr-purple);
+}
+
+/* ── Hambúrguer ──────────────────────────────────────────── */
+.isp-menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--hdr-white);
+    padding: 0;
+    flex-shrink: 0;
+    transition: background var(--hdr-transition);
+}
+.isp-menu-toggle:hover { background: rgba(255, 255, 255, 0.2); }
+
+.isp-menu-toggle-bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease, width 0.25s ease;
+}
+
+.isp-menu-toggle.is-active .isp-menu-toggle-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+.isp-menu-toggle.is-active .isp-menu-toggle-bar:nth-child(2) {
+    opacity: 0;
+    width: 0;
+}
+.isp-menu-toggle.is-active .isp-menu-toggle-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ══════════════════════════════════════════════════════════
+   RESPONSIVO
+══════════════════════════════════════════════════════════ */
+
+@keyframes menuSlideDown {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+    :root {
+        --hdr-topbar-h: 0px;
+        --hdr-navbar-h: 60px;
+    }
+
+    body            { padding-top: var(--hdr-navbar-h); }
+    .isp-topbar     { display: none; }
+    .isp-menu-toggle{ display: flex; }
+    .btn-client-area{ display: none; }
+
+    .isp-menu {
+        transform: none;
+        display: none;
+        position: absolute;
+        top: var(--hdr-navbar-h);
+        left: 0;
+        right: 0;
+        background: var(--hdr-purple-dark);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding: 8px 0 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+        z-index: 50;
+    }
+
+    .isp-menu.is-open {
+        display: flex;
+        animation: menuSlideDown 0.22s ease;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .menu-list li { width: 100%; }
+
+    .menu-list li a {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: 0.95rem;
+        border-radius: 10px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    :root { --hdr-navbar-h: 56px; }
+
+    .isp-logo-img { height: 48px; }
+    .isp-navbar   { padding: 0 4%; gap: 12px; }
+}
+
+/* ── Foco visível (acessibilidade) ───────────────────────── */
+.isp-header a:focus-visible,
+.isp-menu-toggle:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+.isp-topbar a:focus-visible {
+    outline-color: var(--hdr-purple);
+}

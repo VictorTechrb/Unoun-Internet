@@ -1,0 +1,576 @@
+# Translation of Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-14 12:27:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN - Stable (latest release)\n"
+
+#: core/class-configs.php:767
+msgid "REST API"
+msgstr "REST API"
+
+#: core/backups/class-backups-controller.php:170
+msgid "Error getting file name"
+msgstr "Erro ao obter o nome do ficheiro"
+
+#: core/lazy-load/class-lazy-load-video-embed.php:317
+msgid "Play"
+msgstr "Reproduzir"
+
+#. translators: %1$s: bytes savings, %2$s: percentage savings
+#: core/media-library/class-media-library-row.php:591
+msgid "Reduced by %1$s (%2$s)"
+msgstr "Reduzida em %1$s (%2$s)"
+
+#: app/class-media-library.php:531
+#: core/frontend/class-frontend-controller.php:605
+msgid "Smush: Not processed"
+msgstr "Smush: Não processada"
+
+#: app/class-admin.php:287
+msgid "Manage Plugins"
+msgstr "Gerir plugins"
+
+#: core/frontend/class-frontend-controller.php:1512
+msgid "Premium Support"
+msgstr "Suporte Premium"
+
+#: core/frontend/class-frontend-controller.php:1508
+msgid "View details"
+msgstr "Ver detalhes"
+
+#: app/class-admin.php:540 app/class-admin.php:583 app/class-admin.php:616
+#: core/frontend/class-frontend-controller.php:1502
+msgid "Rate Smush"
+msgstr "Avalie Smush"
+
+#: core/frontend/class-frontend-controller.php:1477
+msgid "Go to Smush Dashboard"
+msgstr "Ir para o Painel Smush"
+
+#: core/frontend/class-frontend-controller.php:1472
+msgid "View Smush Documentation"
+msgstr "Ver a Documentação Smush"
+
+#: core/frontend/class-frontend-controller.php:1457
+#: core/frontend/class-frontend-controller.php:1458
+msgid "Renew Membership"
+msgstr "Renovar a membership"
+
+#: core/modules/class-dir.php:320
+msgid "Potential Phar PHP Object Injection detected"
+msgstr "Detectada uma potencial injecção Phar PHP Object"
+
+#: app/class-media-library.php:527
+msgid "Filter by Smush status"
+msgstr "Filtrar por estado Smush"
+
+#: core/integrations/class-composer.php:74
+msgid "To use this feature you need be using WPBakery Page Builder."
+msgstr "Para utilizar esta funcionalidade precisa de estar a usar o WPBakery Page Builder."
+
+#: app/class-media-library.php:853 core/class-core.php:278
+#: core/media-library/class-media-library-row.php:217
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: core/class-helper.php:348
+msgid "Couldn't process image due to bad headers. Try re-saving the image in an image editor, then upload it again."
+msgstr "Não foi possível processar a imagem devido a um problema nos cabeçalhos. Tente guardar novamente a imagem num editor de imagem e de seguida carregue-a de novo."
+
+#: core/frontend/class-frontend-controller.php:804
+#: core/frontend/class-frontend-controller.php:1477
+msgid "Dashboard"
+msgstr "Painel"
+
+#: core/class-hub-connector.php:505
+msgid "Subsite Controls"
+msgstr "Controlos de Subsite"
+
+#: core/class-configs.php:764
+msgid "Background Images"
+msgstr "Imagens de fundo"
+
+#: core/class-configs.php:631 core/class-configs.php:882
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:2343
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1571
+msgid "Active"
+msgstr "Activo"
+
+#: core/class-settings.php:402
+msgid "Allow smushing images resized in WPBakery Page Builder editor."
+msgstr "Permitir optimizar imagens redimensionadas no editor WPBakery Page Builder."
+
+#: core/class-configs.php:784 core/class-settings.php:401
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#: core/class-settings.php:400
+msgid "Enable WPBakery Page Builder integration"
+msgstr "Activar integração com WPBakery Page Builder"
+
+#: core/class-configs.php:770 core/class-settings.php:319
+msgid "Automatic compression"
+msgstr "Compressão automática "
+
+#: core/class-settings.php:314
+msgid "Image Sizes"
+msgstr "Tamanhos de imagem"
+
+#: core/api/class-smush-api.php:95
+msgid "[WPMUDEV API] Skipped sync due to API error exponential backoff."
+msgstr "[WPMUDEV API] Sincronização ignorada devido a erro exponencial."
+
+#: core/class-configs.php:1023
+msgid "All"
+msgstr "Todos"
+
+#: core/class-configs.php:893
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: core/class-error-handler.php:256
+msgid "No attachment ID was received."
+msgstr "Não foi recebido nenhum ID do anexo."
+
+#: core/class-core.php:284
+msgid "Ignore this image from bulk smushing"
+msgstr "Ignorar esta imagem na optimização em massa."
+
+#: core/class-configs.php:756
+msgid "Scripts"
+msgstr "Scripts"
+
+#: core/class-configs.php:1023 core/class-settings.php:1029
+msgid "None"
+msgstr "Nenhum"
+
+#: core/class-configs.php:918
+msgid "Output Locations"
+msgstr "Locais de saída"
+
+#: core/class-configs.php:917 core/class-configs.php:984
+msgid "Media Types"
+msgstr "Tipos de Multimédia"
+
+#: core/frontend/class-frontend-controller.php:891
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: core/class-settings.php:370
+msgid "Help make Smush better by letting our designers learn how you’re using the plugin."
+msgstr "Ajude a tornar o Smush melhor ajudando os nossos designers a aprender como é que está a usar o plugin."
+
+#: core/class-settings.php:369
+msgid "Usage Tracking"
+msgstr "Monitorização de utilização"
+
+#: core/class-settings.php:365
+msgid "Increase the visibility and accessibility of elements and components to meet WCAG AAA requirements."
+msgstr "Aumente a visibilidade e acessibilidade dos elementos e componentes para atender aos requisitos WCAG AAA."
+
+#: core/class-settings.php:364
+msgid "Color Accessibility"
+msgstr "Acessibilidade de Cor"
+
+#: core/class-settings.php:363
+msgid "Enable high contrast mode"
+msgstr "Activar o modo de alto contraste"
+
+#: core/cli/class-cli-optimizer.php:55
+msgid "No images available to restore"
+msgstr "Não existem imagens disponíveis para repor"
+
+#: core/cli/class-cli.php:129
+msgid "Smushing all images"
+msgstr "A optimizar todas as imagens"
+
+#. translators: %d - number of images
+#: core/cli/class-cli.php:124
+msgid "Smushing first %d images"
+msgstr "A optimizar as primeiras %d imagens"
+
+#. translators: %s Smush image Id(s)
+#: core/cli/class-cli.php:112
+msgid "Smushing image ID: %d"
+msgid_plural "Smushing images %s"
+msgstr[0] "A optimizar a imagem com ID: %d"
+msgstr[1] ""
+
+#: app/views/email/ultra-upsell.php:67
+#: core/frontend/class-frontend-controller.php:1606
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: core/frontend/class-frontend-controller.php:1454
+#: core/frontend/class-frontend-controller.php:1603
+msgid "Upgrade to Smush Pro"
+msgstr "Actualizar para Smush Pro"
+
+#: core/frontend/class-frontend-controller.php:610
+msgid "Select an image to view Smush stats."
+msgstr "Seleccione uma imagem para ver as estatísticas Smush."
+
+#: core/api/class-request.php:82
+msgid "Invalid API service."
+msgstr "Serviço API inválido."
+
+#: core/frontend/class-frontend-controller.php:1472
+msgid "Docs"
+msgstr "Docs"
+
+#: core/frontend/class-frontend-controller.php:1503
+msgid "Support"
+msgstr "Suporte"
+
+#: core/frontend/class-frontend-controller.php:1526
+msgid "Roadmap"
+msgstr "Roteiro"
+
+#: app/views/email/ultra-upsell.php:69
+#: core/frontend/class-frontend-controller.php:316
+#: core/frontend/class-frontend-controller.php:1607
+msgid "Pro"
+msgstr "Pro"
+
+#: app/class-media-library.php:530
+#: core/frontend/class-frontend-controller.php:604
+msgid "Smush: All images"
+msgstr "Smush: Todas as imagens"
+
+#: app/class-media-library.php:532
+#: core/frontend/class-frontend-controller.php:606
+msgid "Smush: Bulk ignored"
+msgstr "Smush: Optimização em massa ignorada"
+
+#: core/class-error-handler.php:261
+msgid "Skipped with wp_smush_image filter"
+msgstr "Ignorado com o filtro wp_smush_image"
+
+#: core/class-settings.php:349
+msgid "Original Images"
+msgstr "Imagens originais"
+
+#: core/class-core.php:297
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: core/integrations/class-gutenberg.php:81
+msgid "To use this feature you need to install and activate the Gutenberg plugin."
+msgstr "Para utilizar esta funcionalidade precisa de instalar e activar o plugin Gutenberg."
+
+#: core/class-configs.php:783 core/class-settings.php:406
+msgid "Gutenberg Support"
+msgstr "Suporte Gutenberg"
+
+#: core/class-settings.php:405
+msgid "Show Smush stats in Gutenberg blocks"
+msgstr "Mostrar estatísticas Smush nos blocos Gutenberg"
+
+#. translators: %1$s - opening <a>, %2$s - closing </a>
+#: app/class-admin.php:152
+msgid "Smush uses the Stackpath Content Delivery Network (CDN). Stackpath may store web log information of site visitors, including IPs, UA, referrer, Location and ISP info of site visitors for 7 days. Files and images served by the CDN may be stored and served from countries other than your own. Stackpath's privacy policy can be found %1$shere%2$s."
+msgstr "Smush usa Stackpath Content Delivery Network (CDN). Stackpath pode armazenar registos de informação web dos visitantes do seu site, incluindo IPs, UA, referrer, Localização e informação do ISP dos visitantes do seu site por 7 dias. Ficheiros e images servidos pelo CDN poderão ser armazenados e servidos por países diferentes do seu. A política de privacidade do Stackpath pode ser encontrada %1$saqui%2$s."
+
+#: core/modules/class-dir.php:976
+msgid "Empty Directory Path"
+msgstr "Caminho de Directório Vazio"
+
+#: core/modules/class-dir.php:772
+msgid "There was a problem getting the selected directories"
+msgstr "Houve um problema ao obter os directórios seleccionados."
+
+#: app/class-media-library.php:766
+#: core/backups/class-backups-controller.php:147
+#: core/backups/class-backups-controller.php:187
+#: core/bulk/class-background-bulk-smush-controller.php:185
+#: core/bulk/class-bulk-smush-session-savings.php:50
+#: core/cache/class-cache-controller.php:45 core/class-hub-connector.php:656
+#: core/class-hub-connector.php:694 core/class-settings.php:833
+#: core/frontend/class-frontend-controller.php:111
+#: core/frontend/class-frontend-controller.php:124
+#: core/frontend/class-frontend-controller.php:1307
+#: core/frontend/class-frontend-controller.php:1544
+#: core/frontend/class-frontend-controller.php:1581
+#: core/modules/class-dir.php:204 core/modules/class-dir.php:224
+#: core/modules/class-dir.php:252 core/modules/class-dir.php:286
+#: core/modules/class-dir.php:565 core/modules/class-dir.php:576
+#: core/modules/class-dir.php:585 core/modules/class-dir.php:592
+#: core/modules/class-dir.php:848 core/modules/class-dir.php:968
+#: core/modules/class-dir.php:1409
+#: core/rating-notification/class-rating-notification-controller.php:28
+#: core/rating-notification/class-rating-notification-controller.php:48
+#: core/rating-notification/class-rating-notification-controller.php:67
+#: core/rating-notification/class-rating-notification-controller.php:86
+msgid "Unauthorized"
+msgstr "Não Autorizado"
+
+#: core/media-library/class-media-library-row.php:759
+msgid "Resmush"
+msgstr "Re-otimizar"
+
+#: app/class-media-library.php:801
+msgid "PRO"
+msgstr "Pro"
+
+#: core/cli/class-cli.php:296
+msgid "Images Smushed"
+msgstr "Imagens Otimizadas"
+
+#: core/cli/class-cli.php:294
+msgid "Total Savings"
+msgstr "Ganhos Totais"
+
+#: core/frontend/class-frontend-controller.php:895
+msgid "Integrations"
+msgstr "Integrações"
+
+#: core/bulk/class-mail.php:93 core/class-hub-connector.php:501
+msgid "Bulk Smush"
+msgstr "Otimização em Massa"
+
+#: core/class-rest.php:52
+msgid "Smush data."
+msgstr "Dados Smush"
+
+#: core/media-library/class-media-library-row.php:329
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1336
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:739
+msgid "Learn more"
+msgstr "Saiba mais"
+
+#: core/frontend/class-frontend-controller.php:883
+msgid "Directory Smush"
+msgstr "Diretório Smush"
+
+#: core/class-configs.php:838 core/frontend/class-frontend-controller.php:848
+#: core/frontend/class-frontend-controller.php:893
+msgid "CDN"
+msgstr "CDN"
+
+#: core/class-rest.php:76
+msgid "Smushing in progress"
+msgstr "Otimização em progresso"
+
+#: core/class-configs.php:771 core/class-settings.php:334
+msgid "Metadata"
+msgstr "Dados meta"
+
+#. Plugin Name of the plugin
+#: wp-smush.php app/views/deactivation-survey.php:33
+#: core/bulk/class-mail.php:65 core/class-configs.php:128
+#: core/class-installer.php:349
+#: core/external/plugins-cross-sell-page/core/plugins-list.php:24
+#: core/frontend/class-frontend-controller.php:311
+#: core/frontend/class-frontend-controller.php:315
+#: core/frontend/class-frontend-controller.php:318
+#: core/frontend/class-frontend-controller.php:603
+#: core/media-library/class-media-library-row.php:725
+#: core/smush/class-smush-optimization.php:102
+msgid "Smush"
+msgstr "Smush"
+
+#: core/bulk/class-mail.php:65
+#: core/external/plugins-cross-sell-page/core/plugins-list.php:191
+#: core/frontend/class-frontend-controller.php:311
+msgid "Smush Pro"
+msgstr "Smush Pro"
+
+#: app/class-admin.php:160
+msgid "Smush uses a third-party email service (Drip) to send informational emails to the site administrator. The administrator's email address is sent to Drip and a cookie is set by the service. Only administrator information is collected by Drip."
+msgstr "Smush usa um serviço de email feito por terceiros (Drip) para enviar emails informativos para os administradores do site. O endereço de email do administrador do site é enviado para o Drip e um cookie é criado pelo serviço. Apenas a informação do administrador é recolhida pelo Drip."
+
+#: app/class-admin.php:149
+msgid "Smush sends images to the WPMU DEV servers to optimize them for web use. This includes the transfer of EXIF data. The EXIF data will either be stripped or returned as it is. It is not stored on the WPMU DEV servers."
+msgstr "Smush envia as imagens para os servidores WPMU DEV para optimizá-las para o uso na web. Isto inclui a transferência de dados EXIF. Os dados EXIF serão removidos ou retornados como estão. Não serão armazenados nos servidores WPMU DEV."
+
+#: app/class-admin.php:147
+msgid "Note: Smush does not interact with end users on your website. The only input option Smush has is to a newsletter subscription for site admins only. If you would like to notify your users of this in your privacy policy, you can use the information below."
+msgstr "Nota: Smush não interage com utilizadores finais no seu site. A única opção de entrada do Smush é a subscrição de uma newsletter apenas para os administradores do site. Se gostaria de notificar os seus utilizadores sobre isto na sua política de privacidade, pode usar as informações abaixo."
+
+#: app/class-admin.php:145
+msgid "Plugin: Smush"
+msgstr "Plugin: Smush"
+
+#: core/frontend/class-frontend-controller.php:609
+msgid "Smush Stats"
+msgstr "Estatísticas Smush"
+
+#: core/class-configs.php:786 core/class-configs.php:837
+#: core/class-settings.php:384
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/class-settings.php:383
+msgid "Enable Amazon S3 support"
+msgstr "Activar Suporte ao Amazon S3"
+
+#: core/class-settings.php:379
+msgid "NextGen Gallery"
+msgstr "NextGen Gallery"
+
+#: core/class-settings.php:358
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "Conversão de PNG para JPEG de forma automática (com perdas)"
+
+#: core/class-settings.php:360
+msgid "When you compress a PNG, Smush will check if converting it to JPEG could further reduce its size."
+msgstr "Quando comprime um ficheiro PNG, Smush vai verificar se convertê-lo para JPEG irá reduzir ainda mais o seu tamanho."
+
+#: core/class-configs.php:779 core/class-settings.php:359
+msgid "PNG to JPEG Conversion"
+msgstr "Conversão PNG para JPEG"
+
+#: core/class-settings.php:320
+msgid "When you upload images to your site, we will automatically optimize and compress them for you."
+msgstr "Quando carregar imagens para o seu site, vamos automaticamente optimizá-las para si."
+
+#: core/modules/class-dir.php:341
+msgid "Image couldn't be optimized"
+msgstr "Não foi possível optimizar a imagem"
+
+#: core/modules/class-dir.php:304
+msgid "Incorrect image id"
+msgstr "ID da imagem incorrecto"
+
+#: core/modules/class-dir.php:991
+msgid "We could not find any images in the selected directory."
+msgstr "Não foram encontradas imagens no directório seleccionado."
+
+#: core/media-library/class-media-library-row.php:756
+msgid "Smush image including original file"
+msgstr "Optimizar imagem incluindo o ficheiro original."
+
+#. translators: %s: number of thumbnails
+#: app/class-media-library.php:788
+msgid "When you upload an image to WordPress it automatically creates %s thumbnail sizes that are commonly used in your pages. WordPress also stores the original full-size image, but because these are not usually embedded on your site we don’t Smush them. Pro users can override this."
+msgstr "Quando carrega uma imagem para o WordPress são automaticamente criadas %s miniaturas que são normalmente usadas nas suas páginas. WordPress também armazena a imagem de tamanho original, mas porque estas não são geralmente incorporadas no seu site nós não as optimizamos. Utilizadores Pro podem sobrepor isto."
+
+#: core/media-library/class-media-library-row.php:828
+msgid "Restore original image"
+msgstr "Repor imagem original"
+
+#: core/media-library/class-media-library-row.php:845
+msgid "Detailed stats for all the image sizes"
+msgstr "Estatísticas detalhadas para todos os tamanhos de imagem"
+
+#: core/backups/class-backups-controller.php:84
+msgid "Unable to restore image"
+msgstr "Incapaz de restaurar imagem"
+
+#: core/class-settings.php:378
+msgid "Enable NextGen Gallery integration"
+msgstr "Activar integração NextGen Gallery"
+
+#: core/class-core.php:274
+msgid "All images are fully optimized."
+msgstr "Todas as imagens estão totalmente optimizadas."
+
+#: core/class-settings.php:380
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "Permitir optimizar images directamente através das opções Galeria NextGen."
+
+#: core/cli/class-cli.php:316
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "Yay! Todas as imagens estão optimizadas segundo as suas opções actuais."
+
+#: app/class-media-library.php:590 core/class-core.php:276
+msgid "Restoring image..."
+msgstr "A restaurar imagem.."
+
+#: app/class-admin.php:293 app/class-admin.php:421 app/class-admin.php:465
+#: core/cache/class-cache-controller.php:67 core/class-core.php:289
+msgid "Dismiss"
+msgstr "Ignorar"
+
+#: core/class-settings.php:318
+msgid "Automatically compress my images on upload"
+msgstr "Optimizar automaticamente as minhas imagens no carregamento"
+
+#. Author of the plugin
+#: wp-smush.php
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:1382
+#: core/external/plugins-cross-sell-page/assets/js/crosssellpage.js:762
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/class-admin.php:164
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#: core/frontend/class-frontend-controller.php:612
+msgid "Savings"
+msgstr "Ganhos"
+
+#: core/frontend/class-frontend-controller.php:611
+#: core/media-library/class-media-library-row.php:666
+msgid "Image size"
+msgstr "Tamanho de imagem"
+
+#: app/class-media-library.php:658
+msgid "Smush Now!"
+msgstr "Optimizar Agora!"
+
+#: app/class-media-library.php:593 app/class-media-library.php:835
+#: core/class-core.php:287 core/class-error-handler.php:264
+#: core/class-rest.php:82 core/media-library/class-media-library-row.php:102
+#: core/media-library/class-media-library-row.php:368
+msgid "Not processed"
+msgstr "Não processada"
+
+#: core/smush/class-smusher.php:653
+msgid "Image couldn't be smushed"
+msgstr "Não foi possível optimizar a imagem"
+
+#: core/smush/class-smusher.php:689
+msgid "Smush data corrupted, try again."
+msgstr "Dados Smush corrompidos, tente novamente."
+
+#. translators: %s: Error message.
+#: core/smush/class-smusher.php:602
+msgid "Error posting to API: %s"
+msgstr "Erro no envio para a API: %s"
+
+#: core/smush/class-smusher.php:665
+msgid "Unknown API error"
+msgstr "Erro desconhecido de API"
+
+#. translators: %s: Directory path
+#. translators: %s: directory name
+#: core/class-error-handler.php:270 core/smush/class-smusher.php:281
+msgid "%s is not writable"
+msgstr "%s não tem permissões de escrita"
+
+#: core/class-error-handler.php:262 core/smush/class-smusher.php:262
+msgid "File path is empty"
+msgstr "Caminho do ficheiro está vazio"
+
+#: core/class-optimization-controller.php:84
+msgid "No attachment ID was provided."
+msgstr "Foi foi indicado nenhum ID do anexo."
+
+#: core/backups/class-backups-controller.php:65
+#: core/class-optimization-controller.php:96
+#: core/media/class-media-item-controller.php:29
+#: core/media/class-media-item-controller.php:56
+msgid "You don't have permission to work with uploaded files."
+msgstr "Não possui permissões para trabalhar com ficheiros carregados."
+
+#: core/frontend/class-frontend-controller.php:968
+msgid "Settings"
+msgstr "Opções"
+
+#: core/class-core.php:271
+msgid "Super-Smush"
+msgstr "Super-Optimização"
+
+#. translators: 1: Error code, 2: Error message.
+#: core/smush/class-smusher.php:635
+msgid "Error posting to API: %1$s %2$s"
+msgstr "Erro no envio para a API: %1$s %2$s"
